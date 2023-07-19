@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+}
+.barra {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    background-color: #2f2946;
+    
+}
+.link{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+.botao{
+    border-radius: 1.2rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+.botao1{
+    color: #fff;
+    background-color: #0d3e18;
+    border-color: #28a745;
+    border-radius: 1.2rem;
+    
+}
+.botao2{
+    color: #fff;
+    background-color: #0d153e;
+    border-color: #28a745;
+    border-radius: 1.2rem;
+    
+}
+.botao3{
+    color: #fff;
+    background-color: #3b4806;
+    border-color: #28a745;
+    border-radius: 1.2rem;
+    
+}
+.caixa{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.tabela {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    padding: 0.75rem;
+    text-align: center;
+
+}
+.tabela th,
+.tabela tr:hover  {
+    border: 1px solid #e9ecef;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-bottom-width: 2px;
+}
